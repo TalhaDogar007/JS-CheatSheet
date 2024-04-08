@@ -20,6 +20,19 @@ abc.split(",");                 // splitting a string on commas gives an array
 abc.split("");                  // splitting on characters
 128.toString(16);               // number to hex(16), octal (8) or binary (2)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Arrays
 
 ```javascript
