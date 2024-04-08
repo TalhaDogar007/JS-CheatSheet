@@ -1,5 +1,8 @@
 # JS-CheatSheet
-Strings⊗
+
+# Strings
+
+```javascript
 var abc = "abcdefghijklmnopqrstuvwxyz";
 var esc = 'I don\'t \n know';   // \n new line
 var len = abc.length;           // string length
@@ -16,3 +19,4 @@ abc.charCodeAt(2);              // character code at index: "c" -> 99
 abc.split(",");                 // splitting a string on commas gives an array
 abc.split("");                  // splitting on characters
 128.toString(16);               // number to hex(16), octal (8) or binary (2)
+
