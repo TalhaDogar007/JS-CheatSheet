@@ -94,8 +94,6 @@ dogs.reduceRight((accumulator, currentValue)
 
 dogs.reverse();                          // Reverses the order of array elements: ["Labrador", "Beagle", "Bulldog"]
 
-dogs.shift();                            // Removes the first element from an array: "Labrador"
-
 dogs.slice(1, 2);                        // Extracts a section of an array: ["Beagle"]
 
 dogs.some((dog) => dog.length > 5);      // Checks if at least one element passes a test: true
@@ -106,15 +104,7 @@ dogs.splice(1, 1, "Poodle");             // Adds/removes array elements: ["Beagl
 
 dogs.toString();                         // Converts array elements into a string: "Beagle,Poodle"
 
-dogs.unshift("Dalmatian");               // Adds one or more elements to the beginning of an array: ["Dalmatian", "Beagle", "Poodle"]
-
-dogs.valueOf();                          // Returns the primitive value of an array: ["Beagle", "Poodle"]
-
-dogs.toString();                         // Converts array elements into a string: "Beagle,Poodle"
-
-dogs.unshift("Dalmatian");               // Adds one or more elements to the beginning of an array: ["Dalmatian", "Beagle", "Poodle"]
-
-dogs.valueOf();                         // Returns the primitive value of an array: ["Beagle", "Poodle"]
+dogs.valueOf();                          // Returns the primitive value of an array: ["Beagle", "Poodle
 ```
 
 # Numbers and Math
